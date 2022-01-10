@@ -11,6 +11,9 @@ function givePW(){
     }
     else
     {
+      document.getElementById('new').style.display = 'none';
+
+        
         alert('the password is incorrect!!!');
     };
 };
