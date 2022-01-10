@@ -9,14 +9,16 @@ function givePW(){
 
         return inputPW;
     }
+    else if(parole != inputPW && document.getElementById('new').style.display === 'block')
+    {
+        document.getElementById('para').innerHTML = 'thank you! enter correct password, to change text again';
+    }
     else
     {
-      document.getElementById('new').style.display = 'none';
+        document.getElementById('new').style.display = 'none';
 
-        
         alert('the password is incorrect!!!');
-    };
-};
+    };};
 
 function fun1(){
 
