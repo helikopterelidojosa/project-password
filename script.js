@@ -11,6 +11,9 @@ function givePW(){
     }
     else if(parole != inputPW && document.getElementById('new').style.display === 'block')
     {
+     
+        document.getElementById('new').style.display = 'none';
+     
         document.getElementById('para').innerHTML = 'thank you! enter correct password, to change text again';
     }
     else
